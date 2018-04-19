@@ -101,3 +101,44 @@ article{
     bottom: 0;
     left: 25%;
 }
+.box-set {
+    position: relative;
+    height: 100%;
+    width: 960px;
+    background: darkgray;
+    left: 25%;
+  }
+.box {
+    /* relative positioning */
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: darkolivegreen;
+    border: 2px solid black;
+    text-align: center;
+    color: black;
+}
+
+.box-1{
+      position: relative;
+      top: 25px;
+      left: 200px;
+}
+
+.box-2{
+    position: relative;
+    top: -145px;
+    left: 500px;
+}
+
+.box-3{
+    position: relative;
+    top: -122px;
+    left: 200px;
+}
+
+.box-4{
+    position: relative;
+    top: -292px;
+    left: 500px;
+}
