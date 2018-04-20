@@ -6,11 +6,11 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
-
+/* causes the items in the list to float to the right */
 li {
     float: right;
 }
-
+/* all objects in the list will have these values */
 li a {
     display: block;
     color: white;
@@ -19,11 +19,11 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color on hover */
 li a:hover {
     background-color: rgb(15, 175, 50);
 }
-
+/* setting base values for the header */
 header{
     background-color: #333;
     color: #f2f2f2;
@@ -79,6 +79,8 @@ header{
     color: blueviolet;
     font-weight: bolder;
     padding: 15px;
+    position: relative;
+    left: 25%;
 }
 
 img {
@@ -148,4 +150,17 @@ article{
     padding: 3px;
     position: relative;
     bottom: -128px;
+}
+.Input_Fields{
+    position: relative;
+    left: 25%;
+    font-size: 18px;
+    padding: 15px;
+    line-height: 20px;
+}
+.theirName{
+    width: 200px;
+}
+.theirEmail{
+    width: 200px;
 }
